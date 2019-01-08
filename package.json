@@ -8,6 +8,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "merge": "^1.2.1",
     "read-pkg": "^4.0.1",
     "write-pkg": "^3.2.0"
   },
