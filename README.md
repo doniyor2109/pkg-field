@@ -32,7 +32,7 @@ npx pkg-field scripts.test jest
 
 Adds `test` script to your `package.json`
 
-```json
+```
 {
   ...
   "scripts": {
