@@ -5,7 +5,7 @@ const pkgField = require('./index');
 const [name, value] = process.argv.slice(2);
 let values = { [name]: value };
 
-if (~name.indexOf('.')) {
+if (!~name.indexOf('.')) {
   values = name.split('.').reduce(function(obj, key, index, arr) {
     return (
       obj[key] = ~(index-arr.length) ? value: {},
