@@ -8,7 +8,7 @@ CLI tool for adding fields to your package.json
 
 ## Installation
 
-Installing globally
+**Installing globally**
 
 ```bash
 npm install -g pkg-field
@@ -18,7 +18,7 @@ or
 yarn global add pkg-field
 ```
 
-You can also run with `npx`
+**Install locally**
 
 ```bash
 npx pkg-field
@@ -26,11 +26,13 @@ npx pkg-field
 
 ## Usage
 
+Adds `test` script to your `package.json`
+
 ```bash
 npx pkg-field scripts.test jest
 ```
 
-Adds `test` script to your `package.json`
+Results:
 
 ```
 {
